@@ -44,7 +44,7 @@
     "title": "Watch the Teaser!",
     "subtitle": "New series dropping soon",
     "description": "Tap to watch a 10-second teaser trailer for the upcoming collection.",
-    "imageUrl": "https://picsum.photos/800/1000",
+    "imageUrl": "https://greymooseinc.github.io/moose_static/14473418_540_960_30fps.mp4",
     "type": "video",
     "action": {
       "interactionType": "external",
