@@ -1,0 +1,103 @@
+[
+  {
+    "id": "pb_001",
+    "title": "Winter Clearance Sale",
+    "subtitle": "Up to 60% OFF selected items",
+    "description": "Limited-time clearance sale. Discounts apply automatically at checkout.",
+    "imageUrl": "https://cdn.mooseapp.com/banners/winter_clearance.jpg",
+    "type": "image",
+    "action": {
+      "interactionType": "internal",
+      "route": "/collections/winter-sale",
+      "parameters": {
+        "campaign": "winter2025",
+        "sort": "discount"
+      }
+    },
+    "metadata": {
+      "campaign": "winter2025",
+      "priority": 1
+    }
+  },
+  {
+    "id": "pb_002",
+    "title": "New LEGO® Arrivals",
+    "subtitle": "Fresh sets just landed",
+    "description": "Explore this month's newest and most popular LEGO releases.",
+    "imageUrl": "https://cdn.mooseapp.com/banners/new_arrivals.png",
+    "type": "image",
+    "action": {
+      "interactionType": "internal",
+      "route": "/new",
+      "parameters": {
+        "category": "lego",
+        "highlight": true
+      }
+    },
+    "metadata": {
+      "release_month": "2025-02",
+      "category": "new-arrivals"
+    }
+  },
+  {
+    "id": "pb_003",
+    "title": "Watch the Teaser!",
+    "subtitle": "New series dropping soon",
+    "description": "Tap to watch a 10-second teaser trailer for the upcoming collection.",
+    "imageUrl": "https://cdn.mooseapp.com/banners/teaser_thumb.jpg",
+    "type": "video",
+    "action": {
+      "interactionType": "external",
+      "url": "https://cdn.mooseapp.com/videos/teaser.mp4",
+      "parameters": {
+        "autoplay": true,
+        "referrer": "promo_banner"
+      }
+    },
+    "metadata": {
+      "content_type": "video",
+      "duration_seconds": 10
+    }
+  },
+  {
+    "id": "pb_004",
+    "title": "Earn Double Points!",
+    "subtitle": "Today only",
+    "description": "Earn 2x Stud Points on all purchases before midnight.",
+    "imageUrl": "https://cdn.mooseapp.com/banners/double_points.gif",
+    "type": "gif",
+    "action": {
+      "interactionType": "custom",
+      "customActionId": "apply_double_points",
+      "parameters": {
+        "multiplier": 2,
+        "expires": "2025-03-15T23:59:00Z"
+      }
+    },
+    "metadata": {
+      "promo_code": "X2POINTS",
+      "event": "double_points_day",
+      "priority": 2
+    }
+  },
+  {
+    "id": "pb_005",
+    "title": "Free Shipping Weekend",
+    "subtitle": null,
+    "description": "Enjoy free shipping on orders over $50 this weekend.",
+    "imageUrl": "https://cdn.mooseapp.com/banners/free_shipping.jpg",
+    "type": "image",
+    "action": {
+      "interactionType": "none",
+      "route": null,
+      "url": null,
+      "parameters": null
+    },
+    "metadata": {
+      "region": "CA",
+      "threshold": 50,
+      "event": "free_shipping_weekend"
+    }
+  }
+]
+`
