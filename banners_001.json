@@ -4,7 +4,7 @@
     "title": "Winter Clearance Sale",
     "subtitle": "Up to 60% OFF selected items",
     "description": "Limited-time clearance sale. Discounts apply automatically at checkout.",
-    "imageUrl": "https://cdn.mooseapp.com/banners/winter_clearance.jpg",
+    "imageUrl": "https://images.unsplash.com/photo-1519681393784-d120267933ba?w=1080",
     "type": "image",
     "action": {
       "interactionType": "internal",
@@ -24,7 +24,7 @@
     "title": "New LEGO® Arrivals",
     "subtitle": "Fresh sets just landed",
     "description": "Explore this month's newest and most popular LEGO releases.",
-    "imageUrl": "https://cdn.mooseapp.com/banners/new_arrivals.png",
+    "imageUrl": "https://images.unsplash.com/photo-1585366119957-e9730b6a0ff1?w=1080",
     "type": "image",
     "action": {
       "interactionType": "internal",
@@ -44,7 +44,7 @@
     "title": "Watch the Teaser!",
     "subtitle": "New series dropping soon",
     "description": "Tap to watch a 10-second teaser trailer for the upcoming collection.",
-    "imageUrl": "https://cdn.mooseapp.com/banners/teaser_thumb.jpg",
+    "imageUrl": "https://images.unsplash.com/photo-1497032205916-ac775f0649ae?w=1080",
     "type": "video",
     "action": {
       "interactionType": "external",
@@ -64,7 +64,7 @@
     "title": "Earn Double Points!",
     "subtitle": "Today only",
     "description": "Earn 2x Stud Points on all purchases before midnight.",
-    "imageUrl": "https://cdn.mooseapp.com/banners/double_points.gif",
+    "imageUrl": "https://images.unsplash.com/photo-1607082349566-18783080efbd?w=1080",
     "type": "gif",
     "action": {
       "interactionType": "custom",
@@ -85,7 +85,7 @@
     "title": "Free Shipping Weekend",
     "subtitle": null,
     "description": "Enjoy free shipping on orders over $50 this weekend.",
-    "imageUrl": "https://cdn.mooseapp.com/banners/free_shipping.jpg",
+    "imageUrl": "https://images.unsplash.com/photo-1495020689067-958852a7765e?w=1080",
     "type": "image",
     "action": {
       "interactionType": "none",
@@ -100,4 +100,3 @@
     }
   }
 ]
-`
