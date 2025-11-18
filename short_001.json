@@ -1,0 +1,155 @@
+[
+  {
+    "id": "short_001",
+    "title": "City Lights",
+    "subtitle": "Night vibes in the downtown core",
+    "description": "A calming night view with illuminated skyscrapers.",
+    "mediaUrl": "https://picsum.photos/seed/city-lights/1080/1920",
+    "type": "image",
+    "thumbnailUrl": null,
+    "duration": 5,
+    "action": {
+      "interactionType": "internal",
+      "route": "/gallery/city",
+      "parameters": { "tag": "urban" }
+    },
+    "metadata": { "category": "urban", "rating": 4.8 }
+  },
+  {
+    "id": "short_002",
+    "title": "Morning Brew",
+    "subtitle": "Start your day right",
+    "description": "Coffee steam rising as sunlight hits the table.",
+    "mediaUrl": "https://picsum.photos/seed/morning-brew/1080/1920",
+    "type": "image",
+    "thumbnailUrl": null,
+    "duration": 4,
+    "action": {
+      "interactionType": "none"
+    },
+    "metadata": { "mood": "cozy" }
+  },
+  {
+    "id": "short_003",
+    "title": "Ocean Waves",
+    "subtitle": "Relaxing beach soundscape",
+    "description": "Video loop of gentle blue waves washing ashore.",
+    "mediaUrl": "https://sample-videos.com/video321/mp4/720/big_buck_bunny_720p_1mb.mp4",
+    "type": "video",
+    "thumbnailUrl": "https://picsum.photos/seed/ocean-waves/1080/1920",
+    "duration": 10,
+    "action": {
+      "interactionType": "custom",
+      "customActionId": "open_video_player",
+      "parameters": { "autoplay": true }
+    },
+    "metadata": { "nature": true, "loop": true }
+  },
+  {
+    "id": "short_004",
+    "title": "Mountain Escape",
+    "subtitle": null,
+    "description": "A breathtaking drone shot of alpine mountains.",
+    "mediaUrl": "https://picsum.photos/seed/mountain-escape/1080/1920",
+    "type": "image",
+    "thumbnailUrl": null,
+    "duration": 5,
+    "action": {
+      "interactionType": "internal",
+      "route": "/category/outdoors"
+    },
+    "metadata": { "theme": "nature" }
+  },
+  {
+    "id": "short_005",
+    "title": "Fresh Berries",
+    "subtitle": "Healthy & vibrant",
+    "description": "Macro shot of mixed berries in natural light.",
+    "mediaUrl": "https://picsum.photos/seed/berries/1080/1920",
+    "type": "image",
+    "thumbnailUrl": null,
+    "duration": 4,
+    "action": {
+      "interactionType": "external",
+      "url": "https://greymoose.ca/blog/healthy-food",
+      "parameters": { "utm_source": "shorts" }
+    },
+    "metadata": { "color": "red" }
+  },
+  {
+    "id": "short_006",
+    "title": "Travel Teaser",
+    "subtitle": "Where next?",
+    "description": "A short cinematic travel teaser clip.",
+    "mediaUrl": "https://sample-videos.com/video321/mp4/720/sample-1.mp4",
+    "type": "video",
+    "thumbnailUrl": "https://picsum.photos/seed/travel-teaser/1080/1920",
+    "duration": 12,
+    "action": {
+      "interactionType": "custom",
+      "customActionId": "open_travel_plugin"
+    },
+    "metadata": { "promo": "travel2025" }
+  },
+  {
+    "id": "short_007",
+    "title": "Minimal Desk Setup",
+    "subtitle": "Aesthetic workspace",
+    "description": "Flat lay shot of a clean modern workspace.",
+    "mediaUrl": "https://picsum.photos/seed/minimal-desk/1080/1920",
+    "type": "image",
+    "thumbnailUrl": null,
+    "duration": 5,
+    "action": {
+      "interactionType": "internal",
+      "route": "/products/desk-accessories"
+    },
+    "metadata": { "style": "minimal" }
+  },
+  {
+    "id": "short_008",
+    "title": "Puppy Slow-Mo",
+    "subtitle": "Pure happiness",
+    "description": "Cute dog running in slow motion.",
+    "mediaUrl": "https://sample-videos.com/video321/mp4/720/sample-2.mp4",
+    "type": "video",
+    "thumbnailUrl": "https://picsum.photos/seed/puppy/1080/1920",
+    "duration": 8,
+    "action": {
+      "interactionType": "custom",
+      "customActionId": "view_pet_category"
+    },
+    "metadata": { "animals": true }
+  },
+  {
+    "id": "short_009",
+    "title": "Sunset Drive",
+    "subtitle": null,
+    "description": "Warm gradient skies over a smooth evening highway.",
+    "mediaUrl": "https://picsum.photos/seed/sunset-drive/1080/1920",
+    "type": "image",
+    "thumbnailUrl": null,
+    "duration": 5,
+    "action": {
+      "interactionType": "internal",
+      "route": "/gallery/sunset"
+    },
+    "metadata": { "mood": "calm" }
+  },
+  {
+    "id": "short_010",
+    "title": "Street Food Tour",
+    "subtitle": "Taste around the world",
+    "description": "Short montage of global street foods.",
+    "mediaUrl": "https://sample-videos.com/video321/mp4/720/big_buck_bunny_720p_1mb.mp4",
+    "type": "video",
+    "thumbnailUrl": "https://picsum.photos/seed/streetfood/1080/1920",
+    "duration": 11,
+    "action": {
+      "interactionType": "external",
+      "url": "https://greymoose.ca/food-guide",
+      "parameters": { "source": "short" }
+    },
+    "metadata": { "food": true, "culture": true }
+  }
+]
